@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">YadroTest</string>
+    <string name="contact_icon_description">Contact icon</string>
+    <string name="cannot_call_error">Cannot perform a phone call</string>
+</resources>
