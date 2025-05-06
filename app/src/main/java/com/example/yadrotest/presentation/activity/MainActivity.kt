@@ -6,7 +6,6 @@ import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Bundle
 import android.provider.ContactsContract
-import android.provider.Settings
 import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -26,11 +25,7 @@ import com.example.yadrotest.presentation.screen.MainScreen
 import com.example.yadrotest.presentation.theme.YadroTestTheme
 import com.example.yadrotest.presentation.viewmodel.MainViewModel
 import dagger.hilt.android.AndroidEntryPoint
-import java.net.URI
-import java.net.URL
 import java.util.UUID
-import javax.inject.Inject
-import kotlin.random.Random
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
